@@ -1,0 +1,212 @@
+* {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2fd blue;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.container {
+    align-items: center;
+}
+
+header {
+    padding: 50px;
+    background-color: aquamarine;
+    width: 90%;
+    -o-border-radius: 180px;
+    -webkit-border-radius: 180px;
+    -moz-border-radius: 180px;
+    -ms-border-radius: 180px;
+    border-radius: 180px;
+}
+
+header>h1 {
+    text-align: center;
+    font-style: roboto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vw;
+}
+
+nav {
+    margin-right: 10px;
+    padding: 20 px;
+    flex-direction: row;
+    flex-wrap: unset;
+    -o-border-radius: 40px;
+    vertical-align: middle;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    border-radius: 40px;
+}
+
+nav>button {
+    padding: 10px;
+    margin: 5px;
+    -o-border-radius: 80px;
+    border-color: aqua;
+    background-color: aquamarine;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    border-radius: 80px;
+}
+
+nav>button>a {
+    text-decoration: none;
+    color: rgb(17, 15, 15);
+}
+
+mark {
+    width: 90%;
+    -o-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    border-radius: 40px;
+}
+
+.left-align {
+    position: relative;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.sombra {
+    text-decoration: double;
+    text-shadow: 2px 6px rgb(54, 54, 54);
+    font-stretch: narrower;
+}
+
+.desaparecer {
+    display: none;
+}
+
+.sombra2 {
+    text-shadow: none;
+}
+
+blockquote {
+    display: inline-block;
+    border-left: 2px solid #ccc;
+    padding-left: 10px;
+    margin: 0;
+}
+
+q,
+cite {
+    display: inline;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    * {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        background-color: #e3f2fd blue;
+        flex-direction: column;
+        vertical-align: middle;
+    }
+    .container {
+        align-items: center;
+    }
+    header {
+        padding: 20px;
+        background-color: rgb(127, 204, 255);
+        width: 60%;
+        -o-border-radius: 180px;
+        -webkit-border-radius: 180px;
+        -moz-border-radius: 180px;
+        -ms-border-radius: 180px;
+        border-radius: 180px;
+    }
+    header>h1 {
+        text-align: center;
+        font-style: roboto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 5vw;
+    }
+    nav {
+        margin-right: 10px;
+        padding: 10 px;
+        flex-direction: row;
+        flex-wrap: unset;
+        -o-border-radius: 40px;
+        vertical-align: middle;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        border-radius: 40px;
+    }
+    nav>button {
+        padding: 2px;
+        margin: 2px;
+        -o-border-radius: 80px;
+        border-color: aqua;
+        background-color: rgb(127, 204, 255);
+        -webkit-border-radius: 80px;
+        -moz-border-radius: 80px;
+        -ms-border-radius: 80px;
+        border-radius: 80px;
+    }
+    nav>button>a {
+        font-size: smaller;
+        text-decoration: none;
+        color: rgb(17, 15, 15);
+    }
+    mark {
+        width: 90%;
+        -o-border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        border-radius: 40px;
+    }
+    .left-align {
+        position: relative;
+    }
+    .center-align {
+        text-align: center;
+    }
+    .right-align {
+        text-align: right;
+    }
+    .sombra {
+        text-decoration: double;
+        text-shadow: 2px 6px rgb(54, 54, 54);
+        font-stretch: narrower;
+    }
+    .desaparecer {
+        display: none;
+    }
+    .sombra2 {
+        text-shadow: none;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up)
+
+@media only screen and (min-width: 600px) {
+    ...
+}
+ */
+
+
+/* Medium devices (landscape tablets, 768px and up) 
+
+@media only screen and (min-width: 768px) {
+    ...
+}
+*/

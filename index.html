@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Ricieri da Silva</title>
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link type="text/css" rel="stylesheet" href="css/pattern.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+    <container class="container-fluid centered avatar">
+        <header class="centered">
+            <h1 class="center-align">Ricieri da Silva</h1>
+        </header>
+        <nav class="center-align amber background portuguese">
+            <button class="btn-group-sm"><a  href="./apresentacao.html">Apresentação</a></button>
+            <button class="btn-group-sm"><a href="./curriculo.html">Currículo</a></button>
+            <button class="btn-group-sm"><a href="./formacao.html">Formação</a></button>
+            <button class="btn-group-sm"><a href="./experiencias.html">Experiências</a></button>
+            <button class="btn-group-sm"><a href="./portifolio.html">Portifólio </a></button>
+            <button class="btn-group-sm"><a href="./skills.html">Skills</a></button>
+            <button class="btn-group-sm"><a href="./contato.html">Contato</a></button>
+        </nav>
+        <br/><br/>
+        <mark>
+            <div class="right-align sombra">
+                <h2>Bienvindo &nbsp; &nbsp; &nbsp; Seja benvindo &nbsp; &nbsp; &nbsp;  Welcome &nbsp; &nbsp; &nbsp;  Benevenuto &nbsp; &nbsp; &nbsp;  Bienvindo </h2>
+            </div>
+        <div class="left-align sombra desaparecer">
+            <h2>Welcome &nbsp; &nbsp;  Benevenuto &nbsp; &nbsp; Bienvindo  &nbsp; &nbsp; Seja benvindo &nbsp; &nbsp;  Welcome </h2>
+        </div>
+
+        <div class="right-align sombra desaparecer">
+            <h2>&nbsp; &nbsp;  Benevenuto  &nbsp; &nbsp;     Benvindo  &nbsp; &nbsp;  Welcome  &nbsp; &nbsp;    Benevenuto      Bienvindo</h2>
+        </div>
+        <div class="center-align sombra2">
+            <h2>Benevenuto  &nbsp; &nbsp; Bienvindo    &nbsp; &nbsp; Seja Benvindo &nbsp; &nbsp;   Welcome &nbsp; &nbsp; </h2>
+        </div>
+    </mark>
+        <blockquote>
+            <q id="quote"></q>
+            <cite id="author"></cite>
+        </blockquote>
+        <footer></footer>
+    </container>
+    <script>
+        // Lista de pensamentos
+        const quotes = [{
+            quote: "A vida é o que acontece enquanto estamos ocupados fazendo outros planos.",
+            author: "John Lennon"
+        }, {
+            quote: "A felicidade não é algo pronto. Ela vem de suas próprias ações.",
+            author: "Dalai Lama Tenzin Gyatso"
+        }, {
+            quote: "A jornada de mil milhas começa com um único passo.",
+            author: " filósofo chinês Laozi Tzu (Lao Tsé), fundador do taoismo."
+        }, {
+            quote: "A imaginação é mais importante que o conhecimento.",
+            author: "Albert Einstein"
+        }, {
+            quote: "Se você não pode fazer grandes coisas, faça pequenas coisas de maneira grandiosa.",
+            author: "Napoleão Hill"
+        }, {
+            quote: "A vida é como andar de bicicleta. Para manter o equilíbrio, você precisa se manter em movimento.",
+            author: "Albert Einstein"
+        }, {
+            quote: "O sucesso não é a chave para a felicidade. A felicidade é a chave para o sucesso. Se você ama o que está fazendo, você será bem-sucedido.",
+            author: "Albert Schweitzer"
+        }, {
+            quote: "Não importa o que você decidiu. O que importa é que isso te faça feliz.",
+            author: "Abraham Lincoln"
+        }];
+        const quote = quotes[Math.floor(Math.random() * quotes.length)];
+        document.getElementById("quote").textContent = quote.quote;
+        document.getElementById("author").textContent = "- " + quote.author;
+    </script>
+
+</body>
+
+
+</html>
