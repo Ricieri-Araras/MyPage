@@ -1,10 +1,8 @@
 * {
-    display: flex;
+    display: flexbox;
     margin: 0;
     padding: 0;
     background-color: #e3f2fd blue;
-    flex-direction: column;
-    vertical-align: middle;
 }
 /*
 .container {
